@@ -1,6 +1,6 @@
 # Revaiso – Feedback & Support
 
-This is the public issue tracker for [Revaiso](https://workspace.google.com/marketplace), a Google Docs add-on that turns your editing instructions into native Google Docs suggestions.
+This is the public issue tracker for [Revaiso](https://chromewebstore.google.com/detail/revaiso/pgadnhlihdcmplleikbcmippnmfpfbin), a Google Docs add-on that turns your editing instructions into native Google Docs suggestions.
 
 ## What is Revaiso?
 
