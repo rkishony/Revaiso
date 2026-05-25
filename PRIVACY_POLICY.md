@@ -1,6 +1,6 @@
 # Privacy Policy for Revaiso
 
-**Last updated: May 21, 2026**
+**Last updated: May 25, 2026**
 
 ## What Revaiso Does
 
@@ -56,4 +56,4 @@ We may update this policy. The "Last updated" date at the top reflects the most 
 
 ## Contact
 
-Questions? [Open an issue](https://github.com/rkishony/Revaiso/issues) or email us at the address listed on the Chrome Web Store listing.
+Questions? [Open an issue](https://github.com/rkishony/Revaiso/issues) or email us at the address listed on the [Chrome Web Store listing](https://chromewebstore.google.com/detail/revaiso/pgadnhlihdcmplleikbcmippnmfpfbin).

@@ -1,6 +1,14 @@
 # Revaiso – Feedback & Support
 
-This is the public issue tracker for [Revaiso](https://chromewebstore.google.com/detail/revaiso/pgadnhlihdcmplleikbcmippnmfpfbin), a Google Docs add-on that turns your editing instructions into native Google Docs suggestions.
+This is the public issue tracker for [Revaiso](https://chromewebstore.google.com/detail/revaiso/pgadnhlihdcmplleikbcmippnmfpfbin), a Chrome extension for Google Docs that turns your editing instructions into native suggestions.
+
+## Install
+
+[Chrome Web Store](https://chromewebstore.google.com/detail/revaiso/pgadnhlihdcmplleikbcmippnmfpfbin)
+
+## Demo
+
+https://www.youtube.com/watch?v=qYB5JL83vG8
 
 ## What is Revaiso?
 
@@ -12,7 +20,7 @@ Revaiso lets you describe how you want text revised, then applies AI output as G
 
 ## Report a Bug or Request a Feature
 
-👉 [Open an issue](../../issues/new)
+👉 [Open an issue](https://github.com/rkishony/Revaiso/issues/new)
 
 Please include:
 - What you were trying to do
