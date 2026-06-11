@@ -8,7 +8,7 @@ This is the public issue tracker for [Revaiso](https://chromewebstore.google.com
 
 ## Demo
 
-https://www.youtube.com/watch?v=qYB5JL83vG8
+https://www.youtube.com/watch?v=SQh_eS3y30c
 
 ## What is Revaiso?
 
