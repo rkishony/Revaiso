@@ -1,6 +1,6 @@
 # Privacy Policy for Revaiso
 
-**Last updated: May 25, 2026**
+**Last updated: June 13, 2026**
 
 ## What Revaiso Does
 
@@ -8,11 +8,15 @@ Revaiso is a Chrome extension that turns your editing instructions into native G
 
 ## Data We Collect
 
-### Selected Document Text
-When you submit a revision request, Revaiso sends the text you selected and your instruction to an AI model. This is the only content transmitted, and it is used solely to generate the requested suggestion.
+### What Revaiso Servers Receive
 
-- **If you use the Revaiso hosted service:** your text is sent to our API, which forwards it to an AI provider to fulfill the request. We do not log or store your document content beyond the duration of the request.
-- **If you use your own API key:** your text is sent directly from your browser to the AI provider you configured (e.g. OpenAI, Anthropic, Google). Your key is stored locally on your device and is never sent to Revaiso servers.
+| | Hosted (default) | Your own API key (BYOK) |
+|---|---|---|
+| **Document content** (selected text, instructions, AI output) | Sent to our API to fulfill the request; **not stored** | **Never sent** — goes directly from your browser to your AI provider |
+| **Usage metadata** (provider, model, character counts, edit mode) | Sent and stored | Sent and stored |
+| **Install metadata** (anonymous install ID, IP, country, install/uninstall events) | Sent and stored | Sent and stored |
+
+Your API key is stored locally only and is never sent to Revaiso.
 
 ### Local Settings
 Revaiso stores the following locally on your device using Chrome's `storage` API:
@@ -20,9 +24,9 @@ Revaiso stores the following locally on your device using Chrome's `storage` API
 - API keys you enter (stored locally, never transmitted to Revaiso)
 - Saved prompts
 - Window position and UI preferences
-- Anonymous install ID for quota tracking
+- Anonymous install ID
 
-None of this data is transmitted to Revaiso except the anonymous install ID for rate-limiting purposes.
+Local settings are not transmitted to Revaiso except the install ID (above).
 
 ## Data We Do Not Collect
 
@@ -42,9 +46,11 @@ When processing a request, your selected text and parts of the document are sent
 
 Each provider has its own privacy policy. Revaiso does not control how providers handle data.
 
+Country lookup from IP uses [ip-api.com](https://ip-api.com/) (IP sent only for that lookup).
+
 ## Data Retention
 
-Revaiso does not retain your document content. Requests are processed in real time and discarded. Local settings remain on your device until you uninstall the extension or clear them in Settings.
+Revaiso does not retain document content — hosted requests are processed in real time and discarded. Usage and install metadata (see table above) is kept for quota and analytics.
 
 ## Children's Privacy
 
